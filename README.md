@@ -2,7 +2,7 @@
 
 Home work
 
- - [Velozar now04](https://github.com/MiskamL/FrontendPRO/blob/master/Lesson1_Grids/Project_Velozar/index.html)
+ - [Velozar now04](https://github.com/MiskamL/FrontendPRO/Lesson1_Grids/Project_Velozar/index.html)
 
 Задачи проэкта:
 
