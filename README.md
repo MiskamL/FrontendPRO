@@ -1,13 +1,11 @@
-# Заголовок
+# Frontend
 
-Содержание
+Home work
 
- - пункт1
- - пункт2
- - [google](https//google.com);
+ - [Velozar now04](https://github.com/MiskamL/FrontendPRO/blob/master/Lesson1_Grids/Project_Velozar/index.html)
 
 Задачи проэкта:
 
  - [x] Задача1
- - [x] Задача2
+ - [ ] Задача2
  - [ ] Задача3
