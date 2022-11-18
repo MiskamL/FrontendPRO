@@ -1,0 +1,169 @@
+@media screen and (max-width: 768px) {
+  .conteiner {
+    max-width: 630px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  header button {
+    display: none;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, minmax(auto, 360px));
+    gap: 30px;
+  }
+
+  .service_wrapper {
+    padding: 80px 0;
+  }
+
+  .service_wrapper > h4 {
+    display: none;
+  }
+
+  .abaut_company {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    padding-top: 10vh;
+  }
+
+  .company_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 400px;
+  }
+
+  .company_content h4 {
+    display: none;
+  }
+
+  .company_content p {
+    margin-top: 25px;
+  }
+
+  .statistics_company {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    z-index: 1;
+  }
+
+  .transaction_statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .transaction_statistics button {
+    display: none;
+  }
+
+  .transaction_statistics > a {
+    display: block;
+    z-index: 1;
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: black;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url("img/content.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 122px 100px 160px;
+    color: #fff;
+  }
+
+  .contact form {
+    display: grid;
+    grid-template-areas:
+      "name surname"
+      "message message"
+      ". send";
+    gap: 35px;
+  }
+
+  .name {
+    grid-area: name;
+  }
+  .surname {
+    grid-area: surname;
+  }
+  .message {
+    grid-area: message;
+  }
+  .send {
+    grid-area: send;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact h2 {
+    font-family: "Merriweather";
+    font-size: 48px;
+    line-height: 69px;
+    height: 100px;
+    color: #ffffff;
+  }
+
+  .contact a {
+    font-family: "Lato";
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 50%);
+  }
+
+  .props {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+  }
+
+  label input {
+    background: none;
+    font-family: "Lato";
+    font-size: 21px;
+    line-height: 29px;
+    color: #bdbdbd;
+  }
+
+  label textarea {
+    background: none;
+    height: 150px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #bdbdbd;
+  }
+
+  form button {
+    height: 60px;
+    width: 312px;
+    background: #005fa3;
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
