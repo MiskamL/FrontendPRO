@@ -4,7 +4,7 @@ Home work
 
  - [Velozar now04](https://miskaml.github.io//FrontendPRO/Lesson1_Grids/Project_Velozar/index.html)
 
- - [BuhOne now11](https://miskaml.github.io//FrontendPRO/Lesson1_Grids/Project_Velozar/index.html)
+ - [BuhOne now11](https://miskaml.github.io//FrontendPRO/Lesson3/index.html)
 
 Задачи проэкта:
 
